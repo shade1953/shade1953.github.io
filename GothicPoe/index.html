@@ -1,0 +1,180 @@
+<html>
+
+    <head>
+        <link href="style_homepage.css" rel="stylesheet">
+        <script src="home_page_function.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Almendra+Display|Almendra+SC|Battambang|Content|Dr+Sugiyama|Meddon|Miss+Fajardose|Nothing+You+Could+Do|Ruthie|Sedgwick+Ave+Display|UnifrakturMaguntia" rel="stylesheet">  
+        <meta name="viewport" content="width=device-width, initial-scale=1">    
+
+
+        <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="//code.jquery.com/jquery-migrate-1.4.1.min.js"></script>    
+
+        <!--
+
+font-family: 'Nothing You Could Do', cursive;
+font-family: 'Sedgwick Ave Display', cursive;
+font-family: 'UnifrakturMaguntia', cursive;
+font-family: 'Meddon', cursive;
+font-family: 'Battambang', cursive;
+font-family: 'Ruthie', cursive;
+font-family: 'Dr Sugiyama', cursive;
+font-family: 'Almendra SC', serif;
+font-family: 'Miss Fajardose', cursive;
+font-family: 'Almendra Display', cursive;
+-->    
+        <title>Gothic Poe</title>   
+
+        <script>
+            $(document).ready(function(){
+                $("#cards a").click(function(evt){
+                    $("#image").attr("src", $(this).attr("href"));
+                    evt.preventDefault();
+
+                });
+
+
+
+                $("#cards2 a").click(function(evt){
+                    $("#image2").attr("src", $(this).attr("href"));
+                    evt.preventDefault();
+
+                });
+            });    
+
+        </script>    
+    </head>    
+
+    <body>
+
+        <div id="myDIV">    
+            <header> 
+                <h1 id="gothic">Gothic Poʊ</h1>
+            </header>   
+
+            <div id="div2" class="container">
+                <h1 class="video">Video coming soon!<br><br><br>Demo Now Avalible!</h1>    
+            </div>  
+        </div>          
+
+        <ul id="menu">
+            <li onclick="howToPlay()">How to Play</li>
+            <li onclick="dropDownRoles()">Role Cards</li>
+            <li onclick="dropDownEvents()">Event Cards</li>
+            <li onclick="dropDownLog()">Developer Log</li>    
+            <li><a href= "game.html">Play Game</a></li>    
+        </ul>
+
+        
+        <section id="howToPlay">   
+
+
+        </section>
+        
+        
+
+        <section id="role_cards">
+
+            <h3>Role Cards</h3>
+
+
+            <div id="card_list">
+                <p>
+                    <img src="images/temp_role_cards/blackcat.jpg" alt="" id="image">
+                </p>
+
+                <ul id="cards">
+                    <li><a href="images/temp_role_cards/blackcat.jpg" title="Batman v Superman" id="first_link">
+                        <img src="images/temp_role_cards/blackcat.jpg" alt="Batman v Superman"></a></li>
+                    <li><a href="images/temp_role_cards/cat.jpg" title="Finding Dory">
+                        <img src="images/temp_role_cards/cat.jpg" alt="Finding Dory"></a></li>
+                    <li><a href="images/temp_role_cards/changling.jpg" title="Kung Fu Panda 3">
+                        <img src="images/temp_role_cards/changling.jpg" alt="Kung Fu Panda 3"></a></li>
+                    <li><a href="images/temp_role_cards/child.jpg" title="Secret Life of Pets">
+                        <img src="images/temp_role_cards/child.jpg" alt="Secret Life of Pets"></a></li>
+                    <li><a href="images/temp_role_cards/Devil.jpg" title="The Choice">
+                        <img src="images/temp_role_cards/Devil.jpg" alt="The Choice"></a></li>
+                    <li><a href="images/temp_role_cards/fortune.jpg" title="The Finest Hours">
+                        <img src="images/temp_role_cards/fortune.jpg" alt="The Finest Hours"></a></li>
+                    <li><a href="images/temp_role_cards/heart.jpg" title="The Force Awakens">
+                        <img src="images/temp_role_cards/heart.jpg" alt="The Force Awakens"></a></li>
+                    <li><a href="images/temp_role_cards/judge.jpg" title="The Revenant">
+                        <img src="images/temp_role_cards/judge.jpg" alt="The Revenant"></a></li>
+
+                    <li><a href="images/temp_role_cards/mask.jpg" title="Titanic">
+                        <img src="images/temp_role_cards/mask.jpg" alt="Titanic"></a></li>
+                    <li><a href="images/temp_role_cards/medic.jpg" title="Deadpool">
+                        <img src="images/temp_role_cards/medic.jpg" alt="Deadpool"></a></li>
+                    <li><a href="images/temp_role_cards/occult.jpg" title="Jurassic Park">
+                        <img src="images/temp_role_cards/occult.jpg" alt="Jurassic Park"></a></li>
+                    <li><a href="images/temp_role_cards/painterr.jpg" title="Megamind">
+                        <img src="images/temp_role_cards/painterr.jpg" alt="Megamind"></a></li>
+                    <li><a href="images/temp_role_cards/piper.jpg" title="Megamind">
+                        <img src="images/temp_role_cards/piper.jpg" alt="Megamind"></a></li>  
+                    <li><a href="images/temp_role_cards/plagued.jpg" title="Megamind">
+                        <img src="images/temp_role_cards/plagued.jpg" alt="Megamind"></a></li> 
+                    <li><a href="images/temp_role_cards/poe.jpg" title="Megamind">
+                        <img src="images/temp_role_cards/poe.jpg" alt="Megamind"></a></li>  
+                    <li><a href="images/temp_role_cards/raven.jpg" title="Megamind">
+                        <img src="images/temp_role_cards/raven.jpg" alt="Megamind"></a></li>  
+                    <li><a href="images/temp_role_cards/reaper.jpg" title="Megamind">
+                        <img src="images/temp_role_cards/reaper.jpg" alt="Megamind"></a></li>         
+
+                </ul>
+            </div>
+        </section>    
+
+        <section id="event_cards">
+            <h3>Event Cards</h3>
+
+
+            <div id="card_list">
+                <p>
+                    <img src="images/temp_event_cards/baptism.jpg" alt="" id="image2">
+                </p>
+
+                <ul id="cards2">
+                    <li><a href="images/temp_event_cards/baptism.jpg" title="Batman v Superman" id="first_link">
+                        <img src="images/temp_event_cards/baptism.jpg" alt="Batman v Superman"></a></li>
+                    <li><a href="images/temp_event_cards/bridge.jpg" title="Finding Dory">
+                        <img src="images/temp_event_cards/bridge.jpg" alt="Finding Dory"></a></li>
+                    <li><a href="images/temp_event_cards/carnival.jpg" title="Kung Fu Panda 3">
+                        <img src="images/temp_event_cards/carnival.jpg" alt="Kung Fu Panda 3"></a></li>
+                    <li><a href="images/temp_event_cards/cat.jpg" title="Secret Life of Pets">
+                        <img src="images/temp_event_cards/cat.jpg" alt="Secret Life of Pets"></a></li>
+                    <li><a href="images/temp_event_cards/chimp.jpg" title="The Choice">
+                        <img src="images/temp_event_cards/chimp.jpg" alt="The Choice"></a></li>
+                    <li><a href="images/temp_event_cards/crossroads.jpg" title="The Finest Hours">
+                        <img src="images/temp_event_cards/crossroads.jpg" alt="The Finest Hours"></a></li>
+                    <li><a href="images/temp_event_cards/heart.jpg" title="The Force Awakens">
+                        <img src="images/temp_event_cards/heart.jpg" alt="The Force Awakens"></a></li>
+                    <li><a href="images/temp_event_cards/house_usher.jpg" title="The Revenant">
+                        <img src="images/temp_event_cards/house_usher.jpg" alt="The Revenant"></a></li>
+
+                    <li><a href="images/temp_event_cards/painting.jpg" title="Titanic">
+                        <img src="images/temp_event_cards/painting.jpg" alt="Titanic"></a></li>
+                    <li><a href="images/temp_event_cards/red_death.jpg" title="Deadpool">
+                        <img src="images/temp_event_cards/red_death.jpg" alt="Deadpool"></a></li>
+                    <li><a href="images/temp_event_cards/vigil.jpg" title="Jurassic Park">
+                        <img src="images/temp_event_cards/vigil.jpg" alt="Jurassic Park"></a></li>                    
+                </ul>
+            </div>
+
+
+
+        </section>
+
+        <section id="developer_log">
+
+             <h3>Developer Log</h3>
+            
+            <h5 style="text-align:center">Hello, Thank you for playing my game. The game is currently in the pre-Alpha stages so there are obviously a lot of problems both website and game wise, which I hope to fix over the summer.</h5>
+            
+        </section>    
+
+    </body> 
+
+
+</html>
+
+
